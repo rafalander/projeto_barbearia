@@ -19,6 +19,14 @@ p{
 }
 
 em strong{
-	color: #ff0000;
+	color: #FF0000;
 	
+}
+
+.itens{
+	font-style: italic/
+}
+
+.beneficios{
+	background: #FFFFFF	
 }
