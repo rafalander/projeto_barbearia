@@ -8,6 +8,12 @@ nav li{
 }
 
 
+nav{
+	position: absolute;
+	top: 150px;
+	right: 200px;
+}
+
 nav a{
 	text-transform: uppercase;
 	color: #000000;
@@ -15,3 +21,4 @@ nav a{
 	font-size: 22px;
 	text-decoration: none; 
 }
+
