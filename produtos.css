@@ -1,5 +1,18 @@
 header{
 	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 200px;
 }
 
 nav li{
@@ -7,12 +20,6 @@ nav li{
 	margin: 0 0 0 15px;
 }
 
-
-nav{
-	position: absolute;
-	top: 150px;
-	right: 200px;
-}
 
 nav a{
 	text-transform: uppercase;
