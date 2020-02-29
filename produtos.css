@@ -1,6 +1,7 @@
 header{
 	background: #BBBBBB;
 	padding: 20px 0;
+	background-image: linear-gradient(to bottom, #FFFFFF, #C78C19)
 }
 
 .caixa{
@@ -58,7 +59,7 @@ nav a:hover{
 }
 
 .produtos li:active{
-	border-color: #088C19;
+	border-color: #8B0000;
 }
 
 .produtos li:hover h2{
@@ -88,5 +89,6 @@ footer{
 }
 
 .estilo-texto{
+	font-family: "arial";
 	font-size: 12px;
 }
