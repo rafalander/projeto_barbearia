@@ -57,33 +57,33 @@ nav a:hover{
 	border-color: #8B0000;
 }
 
-.produtos li:hover h2{
+.produtos li:hover h2 {
 	font-size: 32px;
 }
 
-.produtos h2{
+.produtos h2 {
 	font-size: 30px;
 	font-weight: bold;
 }
 
-.produto-descricao{
+.produto-descricao {
 	font-size: 18px;
 
 }
 
-.produto-preco{
+.produto-preco {
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 10px;
 }
 
-footer{
+footer {
 	text-align: center;
 	padding: 20px 0;
 	background: url("../images/produtos/bg.jpg");
 }
 
-.copyrigth{
+.copyrigth {
 	font-size: 15px;
 	font-family: "arial";
 	color: #FFFFFF;

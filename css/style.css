@@ -1,11 +1,11 @@
-.principal{
+.principal {
 	background: #CCCCCC;
 	padding: 30px;
 }
 
 
-nav li{
-	display: inline;
+nav li {
+	display: inline-flex;
 	margin: 0 0 0 15px;
 }
 
@@ -17,32 +17,32 @@ nav a {
 	text-decoration: none;
 }
 
-#banner{
+#banner {
 	width: 100%
 }
 
-.titulo-principal{
+.titulo-principal {
 	padding-left: 20px;
 }
 
-.titulo-centralizado{
+.titulo-centralizado {
 	text-align: center;
 }
 
-p{
+p {
 	text-align: center
 }
 
-#missao{
+#missao {
 	font-size: 20px
 }
 
-em strong{
+em strong {
 	color: #FF0000;
 	
 }
 
-.itens{
+.itens {
 	font-style: italic
 }
 
@@ -51,7 +51,7 @@ em strong{
 	padding: 20px;
 }
 
-ul{
+ul {
 	display: inline-block;
 	vertical-align: top;
 	width: 20%;
@@ -61,4 +61,16 @@ ul{
 
 .imagem-beneficios{
 	width: 50%
+}
+
+footer {
+	text-align: center;
+	padding: 20px 0;
+	background: url("../images/produtos/bg.jpg");
+}
+
+.copyrigth {
+	font-size: 15px;
+	font-family: "arial";
+	color: #FFFFFF;
 }
