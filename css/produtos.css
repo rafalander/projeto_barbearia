@@ -4,12 +4,6 @@ header{
 	background-image: linear-gradient(to bottom, #FFFFFF, #C78C19)
 }
 
-.caixa{
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
-}
-
 nav{
 	position: absolute;
 	top: 110px;
