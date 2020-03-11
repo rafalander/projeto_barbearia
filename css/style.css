@@ -3,9 +3,15 @@
 	padding: 30px;
 }
 
+nav ul {
+	position: absolute;
+    display: inline-flex;
+    top: 5px;
+    right: 20px;
+}
 
 nav li {
-	display: inline-flex;
+	display: inline;
 	margin: 0 0 0 15px;
 }
 
@@ -23,6 +29,7 @@ nav a {
 
 .titulo-principal {
 	padding-left: 20px;
+	font-weight: bold;
 }
 
 .titulo-centralizado {
