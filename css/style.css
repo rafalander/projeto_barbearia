@@ -1,79 +1,86 @@
-.principal {
-	background: #CCCCCC;
-	padding: 30px;
+header{
+	background: #BBBBBB;
+	padding: 20px 0;
+	background-image: linear-gradient(to bottom, #FFFFFF, #C78C19)
 }
 
-nav ul {
+nav{
 	position: absolute;
-    display: inline-flex;
-    top: 5px;
-    right: 20px;
+	top: 110px;
+	right: 200px;
 }
 
-nav li {
+nav li{
 	display: inline;
 	margin: 0 0 0 15px;
 }
 
-nav a {
+
+nav a{
 	text-transform: uppercase;
 	color: #000000;
 	font-weight: bold;
 	font-size: 22px;
-	text-decoration: none;
+	text-decoration: none; 
 }
 
-#banner {
-	width: 100%
+nav a:hover{
+	color:#8B0000;
+	text-decoration: underline;	
 }
 
-.titulo-principal {
-	padding-left: 20px;
+.produtos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+
+}
+
+.produtos li:hover{
+	border-color: #C78C19;
+
+}
+
+.produtos li:active{
+	border-color: #8B0000;
+}
+
+.produtos li:hover h2 {
+	font-size: 32px;
+}
+
+.produtos h2 {
+	font-size: 30px;
 	font-weight: bold;
 }
 
-.titulo-centralizado {
-	text-align: center;
-}
-
-p {
-	text-align: center
-}
-
-#missao {
-	font-size: 20px
-}
-
-em strong {
-	color: #FF0000;
-	
-}
-
-.itens {
-	font-style: italic
-}
-
-.beneficios{
-	background: #FFFFFF;
-	padding: 20px;
-}
-
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%; 
+.produto-descricao {
+	font-size: 18px;
 
 }
 
-.imagem-beneficios{
-	width: 50%
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
 }
 
 footer {
 	text-align: center;
 	padding: 20px 0;
-	background: url("../images/produtos/bg.jpg");
+	background: url("../images/bg.jpg");
 }
 
 .copyrigth {
